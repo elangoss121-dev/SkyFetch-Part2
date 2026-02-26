@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+    background:#1e293b;
+    color:white;
+    text-align:center;
+}
+
+.container{
+    margin-top:50px;
+}
+
+.search input{
+    padding:10px;
+    width:200px;
+}
+
+.search button{
+    padding:10px;
+    cursor:pointer;
+}
+
+.spinner{
+    border:6px solid #ccc;
+    border-top:6px solid white;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    animation:spin 1s linear infinite;
+    margin:auto;
+}
+
+@keyframes spin{
+    100%{ transform:rotate(360deg);}
+}
+
+.error{
+    color:tomato;
+    margin-top:20px;
+}
